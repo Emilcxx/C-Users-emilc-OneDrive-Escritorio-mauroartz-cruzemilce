@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    Margin:0;
+    padding:0;
+    font-family:'Poppins';
+ }
+
+/*COLOR DE FONDOS EN SECCIONES*/
+ .backgroundColorBlack{
+    background-color:#161616 ;
+ }
+
+ .backgroundColorGrey{
+    background-color: #2D2E2C;
+ }
+/*TAMAÑO DE LOGO*/
+#logo{
+    
+    width: 150px;
+    height: 40px;
+    padding: 5px 5px 5px;
+    margin: 20px 80px 20px; /*Espacio de arriba, derecha, abajo e izquierda O ponemos arriba, izquierda y drecha, abajo*/
+    box-sizing: border-box;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+    /*margin-top: 30px;
+    margin-right: 30px; */
+
+}
+
+
+/*NAV Para poner las SECCIONES una al lado de otra*/
+.hola{
+    width: 1400px;
+    margin: 0%;
+     background-color: rgb(244, 222, 239);
+     list-style: none;
+     text-align: center;
+     display: flex;
+     align-items: center;
+}
+
+/*BUTTON */                              
+.buttom a{
+    display: inline;
+    width: 50px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    background-color: #ff6357;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 150px 130px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.buttom a:hover{ /*PARA HACER EFECTOS EN EL BOTON, EN ESTE CASO QUEDO
+    EL BORDE ROJO ROSA CUANDO PONEMOS EL CURSOR SOBRE EL BOTON*/
+    background-color: transparent;
+    border: 2px solid #ff2957;
+}
+
+/*LIST-STYLE-STYPE*/
+ol {
+    list-style-type: none;
+    display:inline;
+}
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    /*??*/
+    display:inline;
+  
+}
+
+/*SECCIONES MODIFICACIONES*/
+.headerNav{
+    display: inline-block; /*?????ESTO ES LO QUE CAMBIA LA POSICION DEL LOGO A LA IZQUIERDA????*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/*LETRAS DE SECCIONES*/
+.letraDeSecciones{
+    font-size: 20px ;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF
+}
+    
+
+
+/*LETRA DE PARRAFOS*/
+.letraDeParrafos{
+    font-size: 20px ;
+    font-family: 'Poppins', sans-serif;
+    color: #B0B0B0
+}
+/*LETRAS DE FONT FAMILY QUE VAMOS A USAR
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+/*FORMULARIO*/
+.send{
+    display: inline;
+    width: 100px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    background-color: #ff6357;
+    border-color: #ff6350;
+    border-radius: 10px ;
+    padding: 10px 30px;
+    margin: 50px 130px;
+    color: #FFFFFF;
+    text-decoration: none;
+   
+}
+.send:hover{
+ background-color: #ff6;
+ border: 2px solid;
+}
+
+
+
+/*3D PROPIEDADES DE IMG EN PROJECTS*/
+/*.projects img{
+    width: 20%;
+    height: 30%;
+    display: flex;
+    padding: 5px;
+    flex: 25%;
+}*/
+
+/*GRID CONTAINER Y GRID ITEM*/
+
+/*MAIL*/
+.mail{
+    font-size:30px;
+    color:#ff6357
+    
+}
+
+/*UL REDES*/
+
+.redes a{
+color: #B0B0B0;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif
+
+}
+
+/*H3 FORM, GET IN TOUCH Y SOCIALS*/
+.h3 h3{
+    color:#B0B0B0;
+}
+
+/*COPYRIGHT*/
+.copyright{
+    height: 50px;
+    padding: 50px;
+    
+    background-color: #161616;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #404040
+
+}
